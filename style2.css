@@ -1,0 +1,769 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* .container{
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+} */
+img {
+    width: 100%;
+    position: relative;
+}
+
+.img-demo {
+    width: 20%;
+    position: absolute;
+    right: 25%;
+    bottom: -35%;
+    z-index: 1;
+}
+
+.img-demo1 {
+    width: 700px;
+    height: 700px;
+    background-image: url(access/img/demo-restaurant-home-banner-pattern.webp);
+    background-color: rgb(236, 163, 6);
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.template-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 25px;
+    padding: 43px;
+    margin: -21px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 6.25rem;
+    font-size: 125px;
+    color: rgb(236, 163, 6);
+    box-sizing: border-box;
+    -webkit-text-stroke: 1px whitesmoke;
+    margin-bottom: 21px;
+
+
+}
+
+span {
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 4.25rem;
+    font-size: 6.875rem;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+.a1 {
+
+    padding: 9px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    letter-spacing: .1px;
+    border-radius: 5%;
+    margin: 160px;
+}
+
+/* -------------------------------------------------------------- */
+.home-page .page2-main {
+    clear: both;
+    display: block;
+    position: relative;
+    width: 95%;
+}
+
+.home-page .page2-main .container {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.home-page .page2-main .container .page2-ineer .page2-text {
+    font-size: 12.875rem;
+    line-height: 21.875rem;
+    letter-spacing: -10px;
+    opacity: .2;
+    font-weight: 683;
+}
+
+.home-page .page2-main .container .page2-ineer .background2 {
+    position: relative;
+    z-index: 0;
+
+}
+
+
+.home-page .page2-main .container .page2-ineer .background2 img {
+    width: 50%;
+    margin-left: 100px;
+    margin-top: -156px;
+    overflow: hidden;
+}
+
+.home-page .page2-main .container .page2-ineer .background2-1 img {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: -3%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.home-page .page2-main .container .page2-ineer .background2-2 img {
+    width: 16%;
+    position: absolute;
+    right: -3%;
+    top: 21%;
+    z-index: -1;
+}
+
+.home-page .page2-main .container .page2-ineer .background-text1 span {
+    font-size: 15px;
+    color: red;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.home-page .page2-main .container .page2-ineer .background-text1 span::before {
+    content: "\f068";
+    font-family: fontawesome;
+    font-size: 46px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.home-page .page2-main .container .page2-ineer .background-text1 {
+    float: right;
+    box-sizing: border-box;
+    margin-top: -430px;
+}
+
+.home-page .page2-main .container .page2-ineer .background-text1 h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+    line-height: 4rem;
+    font-size: 4.375rem;
+    letter-spacing: -.5px;
+    margin-top: 15px;
+}
+
+.home-page .page2-main .container .page2-ineer .background-text1 p {
+    font-family: "Schibsted Grotesk", sans-serif;
+    line-height: 22px;
+    font-size: 19px;
+    color: #000;
+    text-align: left;
+    opacity: .2;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.home-page .page2-main .container .page2-ineer .background-text1 .number1 .a1 {
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: 10px;
+}
+
+.home-page .page2-main .container .page2-ineer .background-text1 .number2 a {
+    font-family: "Bebas Neue", sans-serif;
+  font-size: 21px;
+  margin-left: 220px;
+  text-decoration: none;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  /* margin-bottom: 16px;
+  margin-top: 87px; */
+  border-radius: 12px;
+}
+
+.home-page .page2-main .container .page2-ineer .block-main {
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+
+}
+
+.home-page .page2-main .container .page2-ineer .block-main .container {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.home-page .page2-main .container .page2-ineer .block-main .block-inner {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item {
+    display: block;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 30px;
+
+}
+
+.home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner {
+    display: flex;
+    margin: 0 10px;
+    /* padding: 40px; */
+    box-sizing: border-box;
+}
+
+ .home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner strong {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+    color: black
+}
+
+ .home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner .p3 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    line-height: 22px;
+    font-size: 19px;
+    color: #000;
+    margin: 0 auto;
+    padding: 3px;
+    font-weight: 200;
+    opacity: .2;
+    text-align: left;
+    box-sizing: border-box;
+    letter-spacing: -.5px;
+}
+
+ .home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner .icon {
+
+    width: 85px;
+    height: 85px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    text-align: left;
+    border-radius: 50%;
+    margin-right: 30px;
+
+}
+
+.home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner .icon .fa-solid {
+    display: block;
+    position: absolute;
+    top: 88%;
+    left: 7%;
+    font-size: 40px;
+}
+
+.home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner .icon .fa-solid1 {
+    position: absolute;
+    top: 93%;
+    left: 39%;
+    font-size: 44px;
+    font-family: fontawesome;
+}
+
+.home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner .icon .fa-solid2 {
+    position: absolute;
+    top: 93%;
+    left: 70%;
+    font-size: 42px;
+    font-family: fontawesome;
+}
+
+/* ---------------------------------------------- */
+
+
+
+.home-page .page3-main {
+    position: relative;
+    background-image: url(access/img/home-05.jpg);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.home-page .page3-main .container {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-page .page3-main .container .background3 img {
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+
+}
+
+.home-page .page3-main .container .page-text {}
+
+.home-page .page3-main .container .page-text h5 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    display: block;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+.home-page .page3-main .container .page-text h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.438rem;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.home-page .page3-main .container .icon1 {
+    text-align: center;
+
+}
+
+.home-page .page3-main .container .icon1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.home-page .page3-main .container .icon1 a {
+    /* text-decoration: none; */
+    color: #000;
+    font-size: 20px;
+}
+
+.home-page .page3-main .container .icon1 .fa-solid3 {
+
+    font-family: fontawesome;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 34px;
+    display: inline-block;
+    float: none;
+    list-style: none;
+    padding: 0 17px;
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-solid4.fa-mug-hot::before {
+    content: "\e757";
+    font-family: fontawesome;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 34px;
+    display: inline-block;
+    float: none;
+    list-style: none;
+    padding: 0 17px;
+}
+
+.fa-solid5.fa-mug-hot::before {
+    content: "\e757";
+    font-family: fontawesome;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 34px;
+    display: inline-block;
+    float: none;
+    list-style: none;
+    padding: 0 17px;
+}
+
+.fa-solid6.fa-mug-hot::before {
+    content: "\f810";
+    font-family: fontawesome;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 34px;
+    display: inline-block;
+    float: none;
+    list-style: none;
+    padding: 0 17px;
+}
+
+.fa-solid7.fa-mug-hot::before {
+    content: "\e6aa";
+    font-family: fontawesome;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 34px;
+    display: inline-block;
+    float: none;
+    list-style: none;
+    padding: 0 17px;
+}
+
+.home-page .page3-main .container .page3-item .menu img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.home-page .page3-main .container .page3-item .menu {
+    display: flex;
+    margin-right: 20px;
+}
+
+.home-page .page3-main .container .page3-item .burger {
+    margin-left: 20px;
+}
+
+.home-page .page3-main .container .page3-item .burger .egg {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.font {
+    font-size: 20px;
+    margin-top: -74px;
+}
+
+.home-page .page3-main .container .page3-item .menu .rate {
+    font-size: 20px;
+    color: black;
+    margin-top: -11px;
+    font-weight: 60;
+}
+
+.page3-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.item-3 {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+.home-page .page3-main .container .last-text .t1 .t1-1 p {
+    text-align: center;
+}
+
+.home-page .page3-main .container .last-text .t1 .t1-1 span {
+    font-size: 20px;
+    color: #000;
+    background-color: red;
+    border-radius: 20px;
+    padding: 8px 25px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+.home-page .container {
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.home-page .page4-main{
+    z-index: 0;
+}
+.home-page .page4-main .page4-text .choice {
+    color: red;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.home-page .page4-main .page4-text .hading h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    line-height: 0.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+   box-sizing: border-box;
+   margin-bottom: 100px;
+}
+.home-page .page4-main .page4-block{
+    padding-bottom: 100px;
+}
+.home-page .page4-main .page4-block .page4-block-ineer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-page .page4-main .page4-block .page4-block-ineer .page4-block-item{
+    display: block;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.home-page .page4-main .page4-block .page4-block-ineer .page4-block-item .page4-block-item-ineer{
+    /* display: flex; */
+    margin: 0 15px;
+    
+}
+.home-page .page4-main .page4-block .page4-block-ineer .page4-block-item .page4-block-item-ineer img{
+    width: 100%;
+}
+.home-page .page4-main .page4-block .page4-block-ineer .item-menu1{
+    text-align: center;
+}
+.home-page .page4-main .page4-block .page4-block-ineer .page4-block-item .item-menu1 span{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+   
+}
+.home-page .page4-main .page4-block .page4-block-ineer .page4-block-item .item-menu1 .list ul{
+    display: flex;
+   justify-content: center;
+   margin-top: -20px;
+}
+.home-page .page4-main .page4-block .page4-block-ineer .page4-block-item .item-menu1 .list ul li{
+    margin: 0 10px;
+}
+.home-page .page4-main .page4-block .page4-block-ineer .page4-block-item .item-menu1 .list ul .list1{
+    list-style: none;
+}
+/* ---------------------------------------------------------------------------------------- */
+.home-page .page5-main {
+    background-color: #f2efec;
+    padding-bottom: 120px;
+}
+.home-page .page5-main .Awesome{
+    
+    /* margin-top: -10px; */
+}
+.home-page .page5-main .Awesome marquee{
+    display: block;
+}
+.home-page .page5-main .Awesome span{
+    font-family: "Bebas Neue", sans-serif;
+    color: #403e3a;
+    font-size: 9.375rem;
+    letter-spacing: -2px;
+    word-spacing: 20px;
+     margin-left: 57px;
+}
+.home-page .page5-main .Awesome strong{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 9.375rem;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  color: aliceblue;
+  -webkit-text-stroke-color: #c0841f;
+  -webkit-text-stroke: 1px #c0841f;
+   }
+.home-page .page5-main .taylor-text .icon-img{
+    text-align: center;
+   }   
+.home-page .page5-main .taylor-text .icon-img img{
+    width: 8%;
+    border-radius: 50%;
+}
+.home-page .page5-main .taylor-text .Matthew h4{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.375rem;
+    color: #403e3a;
+    margin-bottom: 10px;
+}
+.home-page .page5-main .taylor-text .Herman-miller{
+    text-align: center;
+}
+.home-page .page5-main .taylor-text .Herman-miller span{
+    font-family: "Schibsted Grotesk", sans-serif;
+   display: block;
+   color: #c0841f;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+.home-page .page5-main .taylor-text .oner-img {
+    text-align: center;
+    padding: 10px;
+}
+.home-page .page5-main .taylor-text .oner-img img{
+    width: 10%;
+    border-radius: 50%;
+}
+.home-page .page5-main .taylor-text .oner-img .i34{
+    width: 9%;
+    padding: 0 10px;
+}
+/* ------------------------------------------------------------------------- */
+
+.home-page .oneline .oneline-text {
+    text-align: center;
+    margin-top: -35px;
+}
+.home-page .oneline .oneline-text span{
+    font-family: "Schibsted Grotesk", sans-serif;
+    color:#403e3a;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.home-page .oneline .oneline-text .s1{
+    margin-right: 10px;
+    background-color: #f79e04; 
+    border-radius: 20px;
+    padding:  10px;
+    color: #ffff;
+}
+.home-page .oneline .oneline-text .s1 .fa-solid1 {
+    font-family: fontawesome;
+    /* color: #f2efec; */
+}
+
+.home-page .page6-main .page6-text .choice6{
+    color: red;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.home-page .page6-main .page6-text .hading6 h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    line-height: 0.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+   box-sizing: border-box;
+   margin-bottom: 100px;
+}
+
+.home-page .page6-main .page6-block{
+    padding-bottom: 100px;
+}
+.home-page .page6-main .page6-block .page6-block-ineer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-page .page6-main .page6-block .page6-block-ineer .page6-block-item{
+    display: block;
+    width: 33.33%;
+    box-sizing: border-box;
+    position: relative; 
+}
+.home-page .page6-main .page6-block .page6-block-ineer .page6-block-item .page6-block-item-ineer{
+    /* display: flex; */
+    margin: 0 15px;
+}
+.home-page .page6-main .page6-block .page6-block-ineer .page6-block-item .page6-block-item-ineer img{
+    width: 100%;
+    border-radius: 10px;
+}
+.home-page .page6-main .page6-block .page6-block-ineer .item-menu2{
+    text-align: center;
+}
+.home-page .page6-main .page6-block .page6-block-ineer .page6-block-item .item-menu2 p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.75rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 2rem;
+    font-weight: 400;
+    position: absolute;
+    top: 64%;
+    left: 10%;
+   
+}
+.home-page .page6-main .page6-block .page6-block-ineer .page6-block-item .item-menu2-1 a{
+    text-decoration: none;
+    font-family: "Schibsted Grotesk", sans-serif;
+    background-color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    padding: 9px 15px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.home-page .page6-main .page6-block .page6-block-ineer .page6-block-item .item-menu2-1 a:hover{
+    border: 1px solid #403e3a transparent;
+    background-color: none;
+}
+.home-page .footer-page1{
+    background-image: url(access/img/home-footer-bg.jpg);
+    background-size: cover;
+   /* margin-top: 100px; */
+}
+.home-page .footer-page1 .footer-page-block{
+    /* margin-bottom: 100px; */
+    display: block;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item{
+    display: block;
+    width: 25%;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer{
+    margin: 0 15px;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-icon{
+    font-family: fontawesome;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-text{
+    display: block;
+    text-align: center;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-text span{
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-text p{
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 17px;
+    color:#403e3a;
+    line-height: 30px;
+}
