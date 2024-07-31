@@ -4,14 +4,147 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* .container{
+
+.header-main{
+    display: block;
+    padding: 10px;
+    position: sticky;
+    top: 0%;
+    
+}
+.header-main .main-ineer{
+    display: block;
+}
+.header-main .main-ineer .top-header{
+    display: block;
+}
+.header-main .main-ineer .top-header .container{
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+.header-main .main-ineer .top-header .item-ineer{
+    display: flex;
+    width: 100%
+}
+.header-main .main-ineer .top-header .item-ineer  .list{
+    width: 70%;
+}
+.header-main .main-ineer .top-header .item-ineer  .list .top-ineer {
+    display: flex;
+    background-color: white;
+    
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer li{
+    display: block;
+    list-style: none;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer>li>a{
+    font-family: "Bebas Neue", sans-serif;
+    display:block;
+    padding: 15px 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer li a:hover{
+    color: red;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer  li{
+    display: block;
+    position: relative;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer.sub-menu>li>a{
+    display: block;
+    padding: 18px 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer .sub-menu>li>a:hover{
+    color: rgb(20, 0, 244);
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer .sub-menu{
+    display: none;
+    position: absolute;
+    min-width: 12px;
+    top: 100%;
+    left: 0%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer li:hover .sub-menu{
+    display: block;
+}
+
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer li{
+    display: block;
+    position: relative;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer .sub-sub-menu>li>a{
+    font-family: "Bebas Neue", sans-serif;
+    display: block;
+    padding: 18px 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer .sub-sub-menu>li>a:hover{
+    color: rgb(0, 244, 4);
+}
+.header-main .main-ineer .top-header  .item-ineer .list .top-ineer .sub-sub-menu{
+    display: none;
+    position: absolute;
+    min-width: 12px;
+    top: 40%;
+    left: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.header-main .main-ineer .top-header .item-ineer .list .top-ineer li:hover li:hover .sub-sub-menu{
+    display: block;
+}
+.header-main .main-ineer .top-header .item-ineer .logo{
+    display: block;
+    width: 20%;
+}
+.header-main .main-ineer .top-header .item-ineer .logo img{
+    width: 60%;
+    
+}
+.button {
+    display: block;
+    margin-top: 15px;
+}
+.button ::before{
+    content: "\f073";
+    font-family: fontawesome;
+    
+}
+.header-main .main-ineer .top-header .top-ineer .button{
+    display:block;
+   
+}
+.header-main .main-ineer .top-header .button a{
+	text-decoration: none;
+	font-size: 14px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 50px;
+    padding: 10px 10px;
+}
+/* -------------------------------------------------------------------------------------- */
+.container{
     display: block;
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
-} */
+}
 img {
     width: 100%;
     position: relative;
@@ -32,7 +165,7 @@ img {
     background-color: rgb(236, 163, 6);
     border-radius: 50%;
     position: absolute;
-    top: 60%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -40,7 +173,7 @@ img {
 
 .template-text {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -79,7 +212,6 @@ span {
     text-decoration: none;
     background-color: black;
     color: white;
-    border-radius: 0;
     letter-spacing: .1px;
     border-radius: 5%;
     margin: 160px;
@@ -285,7 +417,7 @@ span {
 
 .home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner .icon .fa-solid1 {
     position: absolute;
-    top: 93%;
+    top: 87%;
     left: 39%;
     font-size: 44px;
     font-family: fontawesome;
@@ -293,8 +425,8 @@ span {
 
 .home-page .page2-main .container .page2-ineer .block-main .block-inner .block-item .block-item-inner .icon .fa-solid2 {
     position: absolute;
-    top: 93%;
-    left: 70%;
+    top: 87%;
+    left: 71%;
     font-size: 42px;
     font-family: fontawesome;
 }
@@ -327,7 +459,9 @@ span {
 
 }
 
-.home-page .page3-main .container .page-text {}
+.home-page .page3-main .container .page-text {
+    display: block;
+}
 
 .home-page .page3-main .container .page-text h5 {
     font-family: "Schibsted Grotesk", sans-serif;
@@ -415,7 +549,7 @@ span {
 }
 
 .fa-solid7.fa-mug-hot::before {
-    content: "\e6aa";
+    content: "\f79f";
     font-family: fontawesome;
     font-size: 42px;
     text-align: center;
@@ -562,8 +696,7 @@ span {
     padding-bottom: 120px;
 }
 .home-page .page5-main .Awesome{
-    
-    /* margin-top: -10px; */
+    display: block;
 }
 .home-page .page5-main .Awesome marquee{
     display: block;
@@ -741,7 +874,8 @@ span {
     margin-top: 200px;
 }
 .home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer{
-    margin: 0 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 .home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-icon{
     font-family: fontawesome;
@@ -761,9 +895,66 @@ span {
     font-weight: 600;
     text-transform: uppercase;
 }
-.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-text p{
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-text .footer-p{
     font-family: "Schibsted Grotesk", sans-serif;
     font-size: 17px;
     color:#403e3a;
     line-height: 30px;
+}
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-text a{
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 17px;
+    color:#403e3a;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.home-page .footer-page1 .footer-page-block .footer-page-block-ineer .footer-page-block-item .footer-page-block-item-ineer .footer-text li {
+	list-style: none;
+	margin-top: 15px;
+}
+.home-page .footer-page2 {
+    display: block;
+    background-color: #faf6f3;
+    padding: 20px 0px;
+}
+.home-page .footer-page2 .footer-page2-ineer{
+    display: flex;
+}
+.home-page .footer-page2  .footer-page2-ineer .footer-page2-item {
+    display: block;
+    width: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.home-page .footer-page2  .footer-page2-ineer .footer-page2-item .footer-page2-text p{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.home-page .footer-page2 .footer-page2-ineer  .footer-page2-item .footer-img{
+   display: block;
+   
+}
+.home-page .footer-page2 .footer-page2-ineer  .footer-page2-item .footer-img img{
+    display: block;
+    width: 50%;
+    align-content: center;
+   
+}
+.home-page .footer-page2 .footer-page2-ineer  .footer-page2-item .footer-icon{
+    display: block;
+    text-align: right;
+}
+.home-page .footer-page2 .footer-page2-ineer  .footer-page2-item .footer-icon span{
+    display: block;
+}
+.home-page .footer-page2 .footer-page2-ineer  .footer-page2-item .footer-icon span a{
+    font-size: 20px;
+    color: #000;
+}
+hr{
+    color: #f2efec;
 }
